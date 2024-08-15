@@ -1,1 +1,2 @@
-#wrap{min-height:100dvh; background:#fff; position: relative;}
+#wrap{min-height:100dvh; background:#111; position: relative;}
+#wrap:has(.subcon){background:#fff;}

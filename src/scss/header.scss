@@ -1,5 +1,7 @@
 header{
-    padding:0 20px; display:flex; align-items: center; justify-content: space-between; height: 6rem; position:"sticky"; top:0;
+    padding:0 20px; display:flex; color:#fff; align-items: center; justify-content: space-between; height: 6rem; position:absolute; top:0; left:0; right:0; z-index: 10;
+    
+    + .subCon{ color:#111;}
 
     > .logo{font-size:20px; font-weight:600; font-family:'Poppins'; letter-spacing:3px;}
     > nav{ 
