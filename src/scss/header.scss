@@ -1,0 +1,15 @@
+header{
+    padding:0 20px; display:flex; align-items: center; justify-content: space-between; height: 6rem; position:"sticky"; top:0;
+
+    > .logo{font-size:20px; font-weight:600; font-family:'Poppins'; letter-spacing:3px;}
+    > nav{ 
+        height: 100%;
+        > ul{
+            display:flex; align-items: center; gap:30px; height: 100%;
+            > li{
+                height:100%;
+                > a{height:100%; display: flex; align-items: center; font-size:15px; font-weight:600; font-family:'Poppins';}
+            }
+        }
+    }
+}
