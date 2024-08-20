@@ -6,4 +6,10 @@
     > .txt{font-size:15px; text-align: center; font-weight: 500; font-family: "Noto Sans KR";}
 }
 
-.mainCon::after{content: "\e942"; font-family: "xeicon"; display:inline-block; width:20px; height:20px; border:1px solid #fff; border-radius: 50%; color:#fff; position: absolute; bottom:20px;}
+.mainCon > .scrollIcon{position: absolute; left:50%; transform:translateX(-50%); bottom:20px; width:15px; height:40px; display:inline-block; border:1px solid #fff; border-radius: 10px;}
+.mainCon > .scrollIcon::after{content: "\e942"; font-family: "xeicon"; display:inline-block; font-size:12px;  color:#fff; font-weight:700; position:absolute; left:50%; transform:translateX(-50%); top:0px; animation:slideDown 2s 1s infinite;}
+
+@keyframes slideDown {
+    from {top:0px;}
+    to {top:25px;}
+  }
