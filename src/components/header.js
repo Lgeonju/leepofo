@@ -10,9 +10,7 @@ function Header(){
 
             <nav>
                 <ul>
-                    <li><Link to="/about">ABOUT</Link></li>
                     <li><Link to="/project">PROJECT</Link></li>
-                    <li><Link to="/contact">CONTACT</Link></li>
                 </ul>
             </nav>
         </header>

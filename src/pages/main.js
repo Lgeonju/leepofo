@@ -11,6 +11,14 @@ function Main(){
         <div className="scrollIcon">
         </div>
       </section>
+      <section className="subCon">
+        <div className="myProfile">
+          <div class="myPhoto"></div>
+          <div class="info">
+            <div class="name">이건주</div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
